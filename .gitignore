@@ -1,0 +1,19 @@
+# Secrets
+.env
+*.env
+
+# YouTube / Google OAuth
+credential.json
+youtube_token.json
+
+# Outputs & logs
+outputs/
+run_log.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db
