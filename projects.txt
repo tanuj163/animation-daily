@@ -1,0 +1,30 @@
+Sine wave propagation with amplitude and frequency sweep
+Lissajous figures morphing through phase angles
+Lorenz attractor 3D trajectory animation
+Double pendulum chaotic motion simulation
+Fourier series approximating a square wave
+Bouncing ball with realistic gravity and energy loss
+Rotating 3D surface plot of a mathematical function
+Wave interference patterns from two point sources
+Mandelbrot set zoom animation
+Projectile motion with air resistance
+Heat diffusion on a 2D plate over time
+Spiral galaxy particle simulation
+Spring-mass-damper system oscillation
+3D rotating DNA double helix
+Fluid flow streamlines around a cylinder
+Cellular automaton (Conway's Game of Life)
+Orbit of planets in the solar system
+Random walk Brownian motion simulation
+FFT spectrum analyser of a chirp signal
+Voronoi diagram growing animation
+Electric field lines around point charges
+Bead on a rotating hoop bifurcation
+Hilbert curve fractal generation
+Acoustic standing wave modes in a tube
+Phase space portrait of Van der Pol oscillator
+Reaction-diffusion Turing pattern emergence
+Magnetic field lines around a bar magnet
+3D rose curve parametric sweep
+Sierpinski triangle recursive generation
+Chaotic waterwheel Lorenz mill animation
