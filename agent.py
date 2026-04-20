@@ -60,7 +60,7 @@ def run_pipeline(project_index: int, description: str) -> dict:
     timestamp = datetime.now().isoformat()
     script_name = f"project_{project_index+1:02d}_{description[:30].replace(' ','_').replace('/','')}.py"
     script_path = CODE_DIR / script_name
-    video_path = OUTPUT_DIR / script_name.replace(".py", ".mp4")
+    video_path = OUTPUT_DIR / script_name.replace(".m", ".mp4")
 
     log_entry = {
         "project_index": project_index,
@@ -98,12 +98,12 @@ def run_pipeline(project_index: int, description: str) -> dict:
         print(f"  Saved to {script_path}")
 
         # ── Step 2: Run MATLAB ───────────────────────────────────────────────
-        print(f"  Running Python...")
+        print(f"  Running MATLAB...")
         success, stdout, stderr = run_python(str(script_path))
 
         if not success:
             last_error = stderr or stdout
-            print(f"  Script error:\n{last_error[:500]}")
+            print(f"  MATLAB error:\n{last_error[:500]}")
             print(f"  Feeding error back to Claude for retry...")
             continue
 

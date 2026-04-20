@@ -1,19 +1,9 @@
-# Core
+openai>=1.30.0
 python-dotenv>=1.0.0
-
-# LLM providers — install only what you need
-google-genai>=1.0.0               # Gemini (free tier) — RECOMMENDED (new SDK)
-anthropic>=0.40.0 
-# openai>=1.30.0                  # OpenAI (paid) — uncomment if using
-# requests>=2.31.0                # Ollama uses stdlib requests, already included
-
-# Animation
-numpy>=1.26.0
-matplotlib>=3.8.0
-scipy>=1.13.0
-
-# YouTube upload
 google-auth>=2.29.0
 google-auth-oauthlib>=1.2.0
 google-auth-httplib2>=0.2.0
 google-api-python-client>=2.128.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+scipy>=1.13.0
