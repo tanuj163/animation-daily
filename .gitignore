@@ -1,7 +1,9 @@
 # Secrets
-.env
-*.env
 
+.venv/
+venv/
+*.env
+.env
 # YouTube / Google OAuth
 credential.json
 youtube_token.json
